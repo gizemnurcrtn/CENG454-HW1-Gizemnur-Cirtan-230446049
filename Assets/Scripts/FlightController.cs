@@ -1,11 +1,18 @@
+//FlightController.cs
+// CENG 454 HW1: Sky-High Prototype
+// Author:Gizemnur ÇIRTAN
+// Studdent ID: 230446049
+
+
+
 using UnityEngine;
 
 public class FlightController : MonoBehaviour
 {
-    [SerializeField] private float pitchSpeed = 45f;
-    [SerializeField] private float yawSpeed = 45f;
-    [SerializeField] private float rollSpeed = 45f;
-    [SerializeField] private float thrustSpeed = 5f;
+    [SerializeField] private float pitchSpeed = 45f ; //degrees/seconds
+    [SerializeField] private float yawSpeed = 45f; //degrees/seconds
+    [SerializeField] private float rollSpeed = 45f; //degrees/seconds
+    [SerializeField] private float thrustSpeed = 5f; //degrees/seconds
 
     private Rigidbody rb;
 
